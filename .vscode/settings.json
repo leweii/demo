@@ -1,0 +1,5 @@
+{
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "java.format.settings.profile": "",
+    "java.format.settings.url": "./config/checkstyle/checkstyle.xml"
+}
