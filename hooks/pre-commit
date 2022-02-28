@@ -19,9 +19,9 @@ rm -f temp
 
 is_err=0
 
-re=`./gradlew checkstyleMain checkstyleMain >> temp`
+re=`./gradlew checkstyleMain >> temp`
 err=`cat temp | grep "ERROR"`
-if [[ $err = *"ERROR"* ]];then
+if [ $err = *"ERROR"* ];then
     print $err
     is_err=1
 fi
@@ -30,7 +30,7 @@ print "检查完成"
 
 rm -f temp
 
-if [ $is_err -ne 0 ]
+if [ $is_err -ne 0 ];
 then
     print "请先符合style才能提交！"
     exit 1

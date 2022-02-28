@@ -9,9 +9,8 @@ public class DemoApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
-		int a = 3;
-		// int abcdefghijklmnop8989qrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopq
-		// rstuvwxyzabcdefghijklmnopqrstuvwxyz = 888;
+		int a= 3;
+		// int abcdefghijklmnop8989qrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz = 888;
 	}
 
 }
