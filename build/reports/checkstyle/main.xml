@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <checkstyle version="9.3">
 <file name="/Users/lewei/Project/demo/src/main/java/com/jakobhe/demo/DemoApplication.java">
-<error line="11" severity="error" message="本行字符数 131个，最多：120个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="11" severity="error" message="本行字符数 135个，最多：120个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+</file>
+<file name="/Users/lewei/Project/demo/src/main/java/com/jakobhe/demo/Test.java">
+<error line="6" severity="error" message="本行字符数 123个，最多：120个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
 </file>
 </checkstyle>
