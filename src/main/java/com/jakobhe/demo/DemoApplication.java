@@ -7,11 +7,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class DemoApplication {
 
-	public static void main (String[] args)  {
-		SpringApplication.run(DemoApplication.class, args)  ;   
-		int a=3;
-		//    int abcdefghijklmnop8989qrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopq
-		//    rstuvwxyzabcdefghijklmnopqrstuvwxyz = 888;
+	public static void main(String[] args) {
+		SpringApplication.run(DemoApplication.class, args);
+		int a = 3;
+		// int abcdefghijklmnop8989qrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopq
+		// rstuvwxyzabcdefghijklmnopqrstuvwxyz = 888;
 	}
 
-}   
+}
