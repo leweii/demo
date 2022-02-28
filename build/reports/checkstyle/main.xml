@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <checkstyle version="9.3">
 <file name="/Users/lewei/Project/demo/src/main/java/com/jakobhe/demo/DemoApplication.java">
-<error line="12" column="22" severity="error" message="&apos;=&apos; 前应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
-<error line="13" severity="error" message="本行字符数 138个，最多：120个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
 </file>
 <file name="/Users/lewei/Project/demo/src/main/java/com/jakobhe/demo/Test.java">
 </file>
